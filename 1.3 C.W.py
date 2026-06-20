@@ -61,3 +61,12 @@
 ##jayden.pencolor("black") # the border is black
 ##jayden.circle(200)
 ##jayden.end_fill()
+
+#Q1
+import turtle # we need this to make turtles
+jayden = turtle.Turtle()
+
+
+
+
+
