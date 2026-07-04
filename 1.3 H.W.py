@@ -129,8 +129,26 @@ t.left(90)
 t.forward(110)
 t.right(90)
 t.pendown()
-
-
+t.fillcolor("purple")
+t.pencolor("red")
+t.begin_fill()
+t.circle(110)
+t.end_fill()
+t.penup()
+t.left(100)
+t.forward(100)
+t.right(90)
+t.pendown()
+t.fillcolor("yellow")
+t.pencolor("magenta")
+t.begin_fill()
+t.circle(90)
+t.end_fill()
+t.penup()
+t.left(100)
+t.forward(90)
+t.right(90)
+t.pendown()
 
 
 
