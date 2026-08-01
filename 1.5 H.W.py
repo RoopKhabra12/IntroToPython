@@ -1,14 +1,14 @@
 import turtle
-a = turtle.Turtle()
-w = turtle.Turtle()
+artist = turtle.Turtle()
+writer = turtle.Turtle()
 
 # give colors
-a.color = ("green")
-w.color = ("purple")
+artist.color("green")
+writer.color("purple")
 
 # speed
-a.speed(0)
-w.speed(0) 
+artist.speed(0)
+writer.speed(0) 
 
 # move position 
 artist.penup()
