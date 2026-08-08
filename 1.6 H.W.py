@@ -64,8 +64,6 @@ b.goto(-80, -80)
 c.goto(80, -80)
 d.goto(-80, 80)
 
-turtle.done()
-
 #Bonus
 roop = turtle.Turtle()
 roop.shape("turtle")
