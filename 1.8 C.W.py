@@ -17,11 +17,89 @@ t.penup() # draw next tick by repeating
 t.goto(0,0)
 
 t.setheading(0)    # 3 o'clock
+t.forward(150)
+t.pendown()
+t.forward(30)
+t.penup() # draw next tick by repeating
+t.goto(0,0)
+
 t.setheading(30)   # 1 o'clock
+t.forward(150)
+t.pendown()
+t.forward(30)
+t.penup() # draw next tick by repeating
+t.goto(0,0)
+
 t.setheading(60)   # 2 o'clock
+t.forward(150)
+t.pendown()
+t.forward(30)
+t.penup() # draw next tick by repeating
+t.goto(0,0)
+
 t.setheading(90)   # 12 o'clock
+t.forward(150)
+t.pendown()
+t.forward(30)
+t.penup() # draw next tick by repeating
+t.goto(0,0)
+
+t.setheading(120)   # 11 o'clock
+t.forward(150)
+t.pendown()
+t.forward(30)
+t.penup() # draw next tick by repeating
+t.goto(0,0)
+
+t.setheading(150)   # 10 o'clock
+t.forward(150)
+t.pendown()
+t.forward(30)
+t.penup() # draw next tick by repeating
+t.goto(0,0)
+
 t.setheading(180)  # 9 o'clock
+t.forward(150)
+t.pendown()
+t.forward(30)
+t.penup() # draw next tick by repeating
+t.goto(0,0)
+
+t.setheading(210)  # 8 o'clock
+t.forward(150)
+t.pendown()
+t.forward(30)
+t.penup() # draw next tick by repeating
+t.goto(0,0)
+
+t.setheading(240)  # 7 o'clock
+t.forward(150)
+t.pendown()
+t.forward(30)
+t.penup() # draw next tick by repeating
+t.goto(0,0)
+
 t.setheading(270)  # 6 o'clock
+t.forward(150)
+t.pendown()
+t.forward(30)
+t.penup() # draw next tick by repeating
+t.goto(0,0)
+
+t.setheading(300)  # 5 o'clock
+t.forward(150)
+t.pendown()
+t.forward(30)
+t.penup() # draw next tick by repeating
+t.goto(0,0)
+
+t.setheading(330)  # 4 o'clock
+t.forward(150)
+t.pendown()
+t.forward(30)
+t.penup() # draw next tick by repeating
+t.goto(0,0)
+
 
 import datetime
 currentMinute = datetime.datetime.now().minute
