@@ -1,3 +1,20 @@
+import turtle
+#Background
+screen = turtle.Screen() # this is like creating a turtle
+# but this time we are creating a Screen
+screen.bgcolor("light blue") # set the colour
+screen.setup(700, 400) # set the size
 
+t=turtle.Turtle()
+t.penup()
+t.goto(-450,-100)
+t.pendown()
+t.color("light yellow")
+t.begin_fill()
+t.forward(900)
+t.right(90)
+t.forward(200)
+t.right(90)
+t.forward(900)
 
 
